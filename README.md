@@ -3,9 +3,13 @@ Predicting the Position of a NFL Player using engineered features from the big d
 
 Dataset: https://www.kaggle.com/competitions/nfl-big-data-bowl-2024/data
 
+Exploration:
+Interceptions were not recorded in this dataset
+
 Data Cleaning:
-++
 Group similar NFL positions
++++
+One Hot Encoding
 
 Model Features:
 BMI
