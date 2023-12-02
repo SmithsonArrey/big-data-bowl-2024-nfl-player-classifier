@@ -5,22 +5,27 @@ Dataset: https://www.kaggle.com/competitions/nfl-big-data-bowl-2024/data
 
 Exploration:
 Interceptions were not recorded in this dataset
+Quarterback Sacks were not recorded in this dataset
+Incomplete passes were not recorded in this dataset
+Could consider over sampling since our dataset is not balanced
+Some Birthdates are missing from the dataset
 
 Data Cleaning:
 Group similar NFL positions
-+++
-One Hot Encoding
 
 Model Features:
 BMI
-Average Speed
+Jersey Number
+Top Speed
+Maximum Acceleration
 Aggression Score
 Passes Caught
-
-++
-Passes Thrown (QB)
-Average Ball Carrying Time (sum of ball carrying time in each game)/ how many games they played
-Average Acceleration
-
+Scrambles (QB)
+Penalty Records (dictionary)
+Ball Carries
 
 Model Tuning:
+
+++
+Grid Search
+CCP to address overfitting
