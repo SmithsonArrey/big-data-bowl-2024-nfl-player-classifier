@@ -25,7 +25,4 @@ Penalty Records (dictionary)
 Ball Carries
 
 Model Tuning:
-
-++
-Grid Search
-CCP to address overfitting
+Grid Search Cross Validation (Cost Complexity Pruning, random state, criterion, max_depth)
